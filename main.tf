@@ -368,7 +368,7 @@ output "lb_dns_name" {
 
 
 resource "aws_s3_bucket" "example" {
-  bucket = "terraform2222"
+  bucket = "terraform8520"
 }
 
 
