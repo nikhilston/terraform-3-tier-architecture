@@ -201,7 +201,7 @@ resource "aws_db_instance" "default" {
   engine_version         = "8.0.35"
   instance_class         = "db.t3.micro"
   username               = "admin"
-  password               = "Nikhil@123"
+  password               = "Nikhil#123"
   skip_final_snapshot    = true
   vpc_security_group_ids = [aws_security_group.database-sg.id]
   db_subnet_group_name   = aws_db_subnet_group.default.id
